@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+
+# ---------------------------------------------
+# My custom rules to only allow specific files:
+# ---------------------------------------------
+
+# 1. Block everything else left in the folder
+*
+
+# 2. Allow the .gitignore file itself
+!.gitignore
+
+# 3. Allow only files starting with your specific name
+!pro
